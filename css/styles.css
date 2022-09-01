@@ -9,15 +9,18 @@ body {
 }
 
 .main {
-    height: 785pxS;
+    height: 785px;
     background: url("../img/bg.jpg") center;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .main-child {
     z-index: 1;
+    display: grid;
+    justify-items: center;
 }
 
 .main h1 {
@@ -26,11 +29,39 @@ body {
     text-align: center;
 }
 
-.gradien {
+.main span {
+    font-size: 19px;
+}
+
+.form-cta {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-cta input {
+    padding: 20px 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.form-cta button {
+    background: #dd0909;
+    outline: none;
+    border: none;
+}
+
+.main p {
+    font-size: 26px;
+}
+
+.main .gradien {
     background: rgba(0, 0, 0.4);
-    background-image: linear-gradient(to top, rgba(0, 0, 0.8)rgba(0, 0, 0.0) 68%. rgba(0, 0, 0.8) 100%): top: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0.8)rgba(0, 0, 0.0) 68% rgba(0, 0, 0.8) 100%);
     position: absolute;
     left: 0;
     right: 0;
+    top: 0;
     bottom: 0;
 }
