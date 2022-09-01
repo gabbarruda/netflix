@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white
+}
+
+.main {
+    height: 785pxS;
+    background: url("../img/bg.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-child {
+    z-index: 1;
+}
+
+.main h1 {
+    font-size: 64px;
+    max-width: 510px;
+    text-align: center;
+}
+
+.gradien {
+    background: rgba(0, 0, 0.4);
+    background-image: linear-gradient(to top, rgba(0, 0, 0.8)rgba(0, 0, 0.0) 68%. rgba(0, 0, 0.8) 100%): top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
