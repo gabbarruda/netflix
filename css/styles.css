@@ -40,12 +40,14 @@ img {
 }
 
 .main {
+    padding-top: 4rem;
     height: 785px;
     background: url("../img/bg.jpg") center;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    box-sizing: border-box
 }
 
 .main-child {
@@ -62,6 +64,7 @@ img {
 
 .main span {
     font-size: 19px;
+    margin-top: 10px;
 }
 
 .form-cta {
@@ -132,6 +135,7 @@ img {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .img-tv {
@@ -162,4 +166,23 @@ img {
     width: 400px;
     top: 45px;
     left: 100px;
+}
+
+.footer .form-cta {
+    margin-top: 0;
+}
+
+.footer {
+    padding: 4rem 0 2rem 0;
+    border-top: 8px solid #222;
+    background: black;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+.footer p {
+    margin-top: 2rem;
+    color: #757575;
+    font-size: 13px;
 }
