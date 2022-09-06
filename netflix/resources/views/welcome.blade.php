@@ -30,7 +30,7 @@
                     <div>
                         <h1>Aproveita na TV.</h1>
                         <p>
-                            Assista em Smart Tvs. Playstation, Xbox, Chromecast, Apple TV, aparelhos de Blu-rays e outros aparelhos.
+                           <h2> Assista em Smart Tvs. Playstation, Xbox, Chromecast, Apple TV, aparelhos de Blu-rays e outros aparelhos.</h2>
                         </p>
                     </div>
                     <div class="img-tv">
@@ -52,7 +52,7 @@
                     <div>
                         <h1>Baixe séries para assistir offline.</h1>
                         <p>
-                            Salve seus títulos favoritos e sempre tenha algo para assistir. </p>
+                            <h2>Salve seus títulos favoritos e sempre tenha algo para assistir.</h2></p>
                     </div>
                     <div class="img-tv">
                         <img src="img/ga.jpg" alt="EI" />
@@ -69,7 +69,7 @@
                     <div>
                         <h1>Assista quando quiser.</h1>
                         <p>
-                            Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso. </p>
+                           <h2>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h2>  </p>
                     </div>
                     <div class="img-tv">
                         <img src="img/ba.png" alt="Device Pile">
@@ -85,9 +85,9 @@
             <div class="container">
                 <div class="grid">
                     <div>
-                        <h1>Crie perfis para crianças.ss</h1>
+                        <h1>Crie perfis para crianças</h1>
                         <p>
-                            Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso. </p>
+                           <h2> Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h2> </p>
                     </div>
                     <div class="img-tv">
                         <img src="img/ha.png" alt="EI" />
