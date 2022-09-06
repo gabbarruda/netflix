@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Brasil - assistir a séries online, assistir filmes online</title>
-    <link rel="shortcut icon" href="{{ url('') }}/icon.png">
+    <link rel="shortcut icon" href="img/icon.png">
     <link rel="stylesheet" href="css/styles.css">
 
     <body>
